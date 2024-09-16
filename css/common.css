@@ -61,7 +61,7 @@ body{
 #menu li {
      font-family: "Exo 2", sans-serif;
      font-weight: 200;
-     font-size: 1.3rem;
+     font-size: 1.4rem;
      display:inline-block;
      margin: 14px;
      color: #fff;
@@ -79,7 +79,7 @@ body{
      top: 65px;
      left: 50%;
      transform: translateX(-50%);
-     width: 2000px;
+     width: 2000%;
      border: 3px solid #4872b8;
 
 }
@@ -105,7 +105,7 @@ body{
 }
 #menu li:not(:nth-of-type(4)).active a{
      color: #fff;
-     font-weight: 500;
+     font-weight: 600;
 }
 
 /* #fullpage .section{

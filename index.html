@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>박주희 프로필-포트폴리오 링크</title>
+	<title>박주희 프로필, 포트폴리오</title>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/common.css" >	
@@ -19,13 +19,13 @@
 
 <!-- 주 메뉴 -->
 <ul id="menu">
-	<li data-menuanchor="1page" class="on"><a href="#">PORTFOLIO</a></li>
-	<li data-menuanchor="2page"><a href="#">ABOUT ME</a></li>
-	<li data-menuanchor="3page"><a href="#">PC Web</a></li>
-	<li data-menuanchor="logo"><a href="#"><img src="./img/logo.png" alt=""></a></li>
-	<li data-menuanchor="4page"><a href="#">MOBILE Web</a></li>
-	<li data-menuanchor="5page"><a href="#">RESPONSIVE</a></li>
-	<li data-menuanchor="6page"><a href="#">OTHER WORKS</a></li>
+	<li data-menuanchor="1page" class="on"><a href="#1page">PORTFOLIO</a></li>
+	<li data-menuanchor="2page"><a href="#2page">ABOUT ME</a></li>
+	<li data-menuanchor="3page"><a href="#3page">PC Web</a></li>
+	<li data-menuanchor="logo"><a href="#1page"><img src="./img/logo.png" alt=""></a></li>
+	<li data-menuanchor="4page"><a href="#4page">MOBILE Web</a></li>
+	<li data-menuanchor="5page"><a href="#5page">RESPONSIVE</a></li>
+	<li data-menuanchor="6page"><a href="#6page">OTHER WORKS</a></li>
 </ul>
 
 <!-- sns -->
@@ -39,11 +39,18 @@
 <div id="fullpage">
 	<!-- 첫 번째 박스 HOME -->
 	<div class="section home_page" id="section0">
+		<h1 class="hidden">PORTFOLIO</h1>
 		<h2 class="hidden">박주희 포트폴리오 첫페이지</h2>
-		<h1>PORTFOLIO</h1>
-		<p>Web Publisher & Design</p>
-		<span>2024 edit.</span>
-		<span class="heart"></span>
+		<div class="tit_box">
+			PORTFOLIO<br><span>Web Publisher & Design</span>
+			<p class="h1_stroke_1">PORTFOLIO<br><span>Web Publisher & Design</span><p>
+			<p class="h1_stroke_2">PORTFOLIO<br><span>Web Publisher & Design</span><p>
+			<p class="h1_stroke_3">PORTFOLIO<br><span>Web Publisher & Design</span><p>
+
+			<p class="edit_box">2024 ver</p>
+			<span class="shape_1"><img src="./img/1p_star_1.png" alt=""></span>
+			<span class="shape_2"><img src="./img/1p_star_2.png" alt=""></span>
+		</div>
 	</div>
 
 	<!-- 두 번째 박스 -->
@@ -54,8 +61,8 @@
 				<img src="./img/pro_1.jpg" class="juhee_pic" alt="박주희 프로필 이미지">
 				<div class="btn">
 					<a href="./resume/resume.html" target='_blank'>ONLINE RESUME</a>
-					<a href="#">STORY BOARD</a>
-					<a href="#">GITHUB</a>
+					<a href="#"  target='_blank'>STORY BOARD</a>
+					<a href="https://github.com/parkgee06?tab=repositories"  target='_blank'>GITHUB</a>
 				</div>
 			</div>
 			<div class="about_text">
@@ -66,7 +73,7 @@
 						<li><i class="fa-solid fa-cake-candles"></i><span>1989.06.19</span></li>
 						<li><i class="fa-solid fa-mobile-retro"></i><span>010.8960.6019</span></li>
 						<li><i class="fa-solid fa-at"></i><span>parkgee06@gmail.com</span></li>
-						<li><i class="fa-solid fa-map-pin"></i><span>서울시 용산구 백범로 90라길</span></li>
+						<li><i class="fa-solid fa-map-pin"></i><span>서울시 용산구 백범로 </span></li>
 						<li>
 							<div>
 								<i class="fa-solid fa-face-laugh-wink"></i>
@@ -76,31 +83,80 @@
 						</li>
 					</ul>
 					<ul class="info_R">
-						<!-- <li><span>PERSONALITY</span> <img src="./img/per.png" alt=""></li> -->
-						<!-- <li><span>PERSONALITY</span> <img src="./img/per.png" alt=""></li> -->
 						<li>
 							<div class="skill_icon">
-								<div class="skill_icon_conding">
+								<div class="skill_icon_conding skill_box">
 									<div><i class="fa-solid fa-code"></i><span>CODING SKILL</span></div>
 									<ul>
-										<li><img src="./img/icon_1_html5.png" alt=""></li>
-										<li><img src="./img/icon_2_css3.png" alt=""></li>
-										<li><img src="./img/icon_3_javascript.png" alt=""></li>
-										<li><img src="./img/icon_4_jquery.png" alt=""></li>
-										<li><img src="./img/icon_5_json.png" alt=""></li>
-										<li><img src="./img/icon_6_ajax.png" alt=""></li>
-										<li><img src="./img/icon_7_bootstrap.png" alt=""></li>
-										<li><img src="./img/icon_8_github.png" alt=""></li>
+										<li>
+											<img src="./img/icon_1_html5.png" alt="">
+											<p>HTML5</p>
+										</li>
+										<li>
+											<img src="./img/icon_2_css3.png" alt="">
+											<p>CSS3<br>(SASS, LESS)</p>
+										</li>
+										<li>
+											<img src="./img/icon_3_javascript.png" alt="">
+											<p>javascript</p>
+										</li>
+										<li>
+											<img src="./img/icon_4_jquery.png" alt="">
+											<p>jQuery</p>
+										</li>
+										<li>
+											<img src="./img/icon_4_typescript.png" alt="">
+											<p>Typescript</p>
+										</li>
+										<li>
+											<img src="./img/icon_5_json.png" alt="">
+											<p>JSON</p>
+										</li>
+										<li>
+											<img src="./img/icon_6_ajax.png" alt="">
+											<p>AJAX</p>
+										</li>
+										<li>
+											<img src="./img/icon_7_bootstrap.png" alt="">
+											<p>Bootstrap</p>
+										</li>
+										<li>
+											<img src="./img/icon_8_github.png" alt="">
+											<p>Git & Github</p>
+										</li>
+										<li>
+											<img src="./img/icon_9_tailwind.png" alt="">
+											<p>Tailwind</p>
+										</li>
+										<li>
+											<img src="./img/icon_9_Wordpress.png" alt="">
+											<p>Wordpress</p>
+										</li>
 									</ul>
 								</div>
-								<div class="skill_icon_design">
+								<div class="skill_icon_design skill_box">
 									<div><i class="fa-solid fa-palette"></i><span>DESING SKILL</span></div>
 									<ul>
-										<li><img src="./img/icon_9_figma.png" alt=""></li>
-										<li><img src="./img/icon_10_photoshop.png" alt=""></li>
-										<li><img src="./img/icon_11_illustrator.png" alt=""></li>
-										<li><img src="./img/icon_12_after_effects.png" alt=""></li>
-										<li><img src="./img/icon_13_premiere_pro.png" alt=""></li>
+										<li>
+											<img src="./img/icon_9_figma.png" alt="">
+											<p>Figma</p>
+										</li>
+										<li>
+											<img src="./img/icon_10_photoshop.png" alt="">
+											<p>Photoshop</p>
+										</li>
+										<li>
+											<img src="./img/icon_11_illustrator.png" alt="">
+											<p>Illurstrator</p>
+										</li>
+										<li>
+											<img src="./img/icon_12_after_effects.png" alt="">
+											<p>After Effects</p>
+										</li>
+										<li>
+											<img src="./img/icon_13_premiere_pro.png" alt="">
+											<p>Premiere Pro</p>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -115,266 +171,201 @@
 	<div class="section pc_page" id="section2">
 		<h2 class="hidden">기업형pc 웹사이트 제작</h2>
 		<div class="all pc_web">
-			<div class="img">
-				<img src="./img/pc.png" alt="" class="monitor">
-			</div>
-			<div class="text">
-				<div class="title_area">
-					<h3>기업형PC 웹사이트</h3>
-					<div class="flex">
-						<h4>(주) 코오롱글로벌</h4>
-						<a href="https://parkgee06.mycafe24.com/" target='_blank' class="visit_btn">VISIT SITE<span></span></a>
+			<ul>
+				<li class="img">
+					<img src="./img/pc.png" alt="" class="result_img">
+				</li>
+				<li>
+					<div class="text">
+						<div class="title_area">
+							<h3>기업형PC 웹사이트</h3>
+							<div class="flex">
+								<h4>(주) 코오롱글로벌</h4>
+								<a href="https://parkgee06.mycafe24.com/" target='_blank' class="visit_btn">VISIT SITE<span><img src="./img/star.png" alt=""></span></a>
+							</div>
+						</div>
+						<ul class="overview">
+							<li class="strategy">
+								<h5><i class="fa-solid fa-magnifying-glass"></i>기획방향 - Planning direction</h5>
+								<span class="contribution">기여도 100%</span>
+								<p>
+									<span>HTML5 표준을 준수</span>하여 기존 XHTML로 제작된 웹사이트를 전면 리뉴얼했습니다. 웹 접근성을 강화하기 위해 <span>시멘틱 마크업을 적용</span>하고, 적절한 헤딩 태그를 사용해 논리적인 아웃라인을 구성했습니다. 이미지로 표현되었던 텍스트를 텍스트로 대체하고, alt 속성이 누락된 이미지를 수정하여 <span>W3C 웹 접근성 검사에서 만점</span>을 받았습니다.<br>이를 통해 사이트 구조의 가독성과 접근성을 크게 향상시켰습니다.
+								</p>
+							</li>
+							<li class="concept">
+								<h5><i class="fa-solid fa-magnifying-glass"></i>제작전략 - Coding Production strategy</h5>
+								<span class="contribution">기여도 100%</span>
+								<p>
+									<span>PHP include를 사용</span>해 header와 footer의 코드를 모듈화하여 재사용성을 높이고 유지보수를 쉽게 하였습니다. <span>JavaScript</span>를 활용하여 스크롤 위치에 따라 헤더가 동적으로 변형되는 기능을 추가해 사용자의 편의성을 높였습니다. 메인 페이지에는 스크롤 이벤트를 적용하고, 서브 페이지에서는 AOS 라이브러리를 활용해 애니메이션 효과를 구현했습니다. 또한, <span>Ajax와 JSON</span>을 통해 <span>데이터를 처리</span>하였으며, <span>jQuery</span>를 사용하여 탭 메뉴, 아코디언 메뉴, 이미지 슬라이드 등을 개발했습니다. <span>Swiper와 Map API를 활용</span>하여 동적이고 직관적인 사용자 경험을 제공했습니다.
+								</p>
+								<p class="skill">
+									HTML5 / CSS3 / JavaScript / jQuery / AJAX / 그누보드(게시판) / W3C 웹표준 통합 마크업 검사(html, css) / 웹접근성검사(K-WAH) / 크로스브라우징 완료
+								</p>
+							</li>
+							<li class="design">
+								<h5><i class="fa-solid fa-magnifying-glass"></i>디자인개선 - Design System</h5>
+								<span class="contribution">기여도 100%</span>
+								<p>
+									<span>브랜드 색상과 가독성을 개선</span>한 최신 UI 디자인을 적용하고, <span>사용자 중심의 직관적 레이아웃</span>으로 네비게이션을 향상시켰습니다. 웹사이트의 시각적 요소를 재구성하여 <span>브랜드 아이덴티티를 강조</span>하고, 사용자의 시각적 피로를 줄이기 위한 <span>컬러 팔레트를 최적화</span>했습니다.
+								</p>
+								<p class="skill">
+									Adobe Photoshop / illustrator / Figma
+								</p>
+							</li>
+							<li>	
+								<h5><i class="fa-solid fa-magnifying-glass"></i>작업기간 - period</h5>
+								<p>2024년 1월 22일 ~ 2월 23일 (1개월)</p>
+							</li>
+						</ul>
 					</div>
-				</div>
-				<ul class="overview">
-					<li class="strategy">
-						<h5><i class="fa-solid fa-magnifying-glass"></i>기획방향 - Planning direction</h5>
-						<span class="contribution">기여도 100%</span>
-						<p>
-							기존 코오롱글로벌 웹사이트는 xhtml1으로 제작되어 웹 접근성을 준수하지 않은 태그 사용과 W3C 마크업 검사 시 다수의 오류가 발생했습니다. 이를 개선하기 위해 적절한 헤딩 태그와 시멘틱한 섹션 요소를 활용하여 논리적인 아웃라인을 구성했습니다. 또한, 이미지로 표현되어 있던 텍스트와 alt 속성이 누락된 이미지를 웹 표준과 접근성을 준수한 방식으로 수정하였습니다.
-						</p>
-					</li>
-					<li class="concept">
-						<h5><i class="fa-solid fa-magnifying-glass"></i>제작전략 - Coding Production strategy</h5>
-						<span class="contribution">기여도 100%</span>
-						<p>
-							바닐라 스크립트와 다양한 Javascript 라이브러리, 플러그인, 그리고 AJAX 기법을 사용하여 복잡한 인터랙션과 동적인 기능을 구현했습니다. 특히, jQuery를 사용해 메인 비주얼 갤러리를 개발하고, 다양한 탭메뉴 등의 기능을 통해 사용자 경험을 향상시켰습니다.
-						</p>
-						<p class="skill">
-							HTML5 / CSS3 / JavaScript / jQuery / AJAX / 그누보드(게시판) / W3C 웹표준 통합 마크업 검사(html, css) / 웹접근성검사(K-WAH) / 크로스브라우징 완료
-						</p>
-					</li>
-					<li class="design">
-						<h5><i class="fa-solid fa-magnifying-glass"></i>디자인개선 - Design System</h5>
-						<span class="contribution">기여도 100%</span>
-						<p>
-							브랜드 색상과 가독성을 개선한 최신 UI 디자인을 적용하고, 사용자 중심의 직관적 레이아웃으로 네비게이션을 향상시켰습니다. 또한  AJAX와 스크립트를 활용하여 풍부한 정보 제공과 상호작용 기능을 추가해 사이트의 유용성을 높였습니다.
-						</p>
-						<p class="skill">
-							Adobe Photoshop / illustrator / Figma
-						</p>
-					</li>
-					<!-- <li class="concept">
-						<h5><i class="fa-solid fa-magnifying-glass"></i>Design System</h5>
-						<div class="color">
-							<p>COLOR │ 감성적인 사진의 컬러칩을 참고하여 디자인 컨셉에 맞는 색상을 선정했습니다</p>
-							<div class="color_box">
-								<span>#7BAABE</span>
-								<span>#7BAABE</span>
-								<span>#7BAABE</span>
-							</div>
-						</div>
-						<div class="font">
-							<p>FONT │ </p>
-							<div class="font_box">
-								<span>한글</span>
-								<span>English</span>
-							</div>
-						</div>
-					</li> -->
-					<li>	
-						<h5><i class="fa-solid fa-magnifying-glass"></i>작업기간 - period</h5>
-						<p>2024년 1월 22일 ~ 2월 23일 (1개월)</p>
-					</li>
-					<!-- <li>
-						<h5><i class="fa-solid fa-magnifying-glass"></i>contribution</h5>
-						<p>기획 / 디자인 / 코딩 - 기여도 100%</p>
-					</li> -->
-					<!-- <li>
-						<h5><i class="fa-solid fa-magnifying-glass"></i>Technology</h5>
-						<p>
-							<i class="fa-solid fa-code"></i>
-							<span></span><br>
-							<i class="fa-solid fa-palette"></i> 
-							<span></span>
-						</p>
-					</li> -->
-				</ul>
-			</div>
+				</li>
+			</ul>
 		</div>
-		
 	</div>
 	
 	<!-- 모바일 네 번째 박스 -->
 	<div class="section mobile_page" id="section3">
 		<h2 class="hidden">모발일 웹사이트 제작</h2>
 		<div class="all mobile_web">
-			<div class="img">
-				<img src="./img/cellphone.png" alt="" class="monitor">
-			</div>
-			<div class="text">
-				<div class="title_area">
-					<h3>모바일 웹사이트</h3>
-					<div class="flex">
-						<h4>(주) 코오롱글로벌</h4>
-						<a href="https://parkgee06.mycafe24.com/mobile" target='_blank' class="visit_btn">VISIT SITE<span></span></a>
+			<ul>
+				<li class="img">
+					<img src="./img/cellphone.png" alt="" class="result_img">
+				</li>
+				<li>
+					<div class="text">
+						<div class="title_area">
+							<div>
+								<h3>모바일 웹사이트</h3>
+								<div class="flex">
+									<h4>(주) 코오롱글로벌</h4>
+									<a href="https://parkgee06.mycafe24.com/mobile" target='_blank' class="visit_btn">VISIT SITE<span><img src="./img/star.png" alt=""></span></a>
+								</div>
+							</div>
+							<img src="./img/QR_mobile.png" alt="" class="qr_img">
+						</div>
+						<ul class="overview">
+							<li class="strategy">
+								<h5><i class="fa-solid fa-magnifying-glass"></i>기획방향 - Planning direction</h5>
+								<span class="contribution">기여도 100%</span>
+								<p>
+									모바일 웹사이트는 리뉴얼된 기업형 PC 버전을 기반으로, <span>모바일 환경에 최적화된 UI를 갖춘</span> 새로운 모바일 웹사이트를 구현하는 것이 주요 목표였습니다. 
+									HTML5 표준을 준수하여 기존 XHTML로 제작된 코오롱글로벌 웹사이트를 전면 개선했습니다.
+								</p>
+							</li>
+							<li class="concept">
+								<h5><i class="fa-solid fa-magnifying-glass"></i>제작전략 - Coding Production strategy</h5>
+								<span class="contribution">기여도 100%</span>
+								<p>
+									<span>바닐라 자바스크립트와 jQuery를 활용</span>하여 다양한 동적 기능과 사용자 상호작용 요소를 구현했습니다. 특히 <span>모바일 터치 이벤트</span>에 중점을 둔 UI를 설계했습니다. gnb 영역에 <span>햄버거 메뉴를 배치</span>하고 <span>아코디언 기능</span>을 추가하여 모바일 사용성을 높였으며, <span>Swiper 슬라이더</span> 플러그인을 적용하여 동적인 콘텐츠 표현을 구현했습니다.
+								</p>
+								<p class="skill">
+									HTML5 / CSS3 / JavaScript / jQuery / AJAX / W3C 웹표준 통합 마크업 검사(html, css) / 웹접근성검사(K-WAH) / 크로스브라우징 완료
+								</p>
+							</li>
+							<li class="design">
+								<h5><i class="fa-solid fa-magnifying-glass"></i>디자인개선 - Design System</h5>
+								<span class="contribution">기여도 100%</span>
+								<p>
+									PC 버전에 비해 간략화된 콘텐츠와 메뉴 구성으로 모바일 UI를 최적화했습니다. 브랜드 색상을 효과적으로 활용하고 가독성을 개선한 <span>최신 UI 디자인을 적용</span>했으며, 사용자 중심의 <span>직관적인 레이아웃</span>으로 네비게이션을 향상시켰습니다. 웹사이트의 시각적 요소를 재구성하여 브랜드 아이덴티티를 강화하고, 사용자의 시각적 피로를 줄이기 위해 컬러 팔레트를 최적화했습니다. 최종적으로 <span>모바일 대표 기기별 테스트를 완료</span>하여 <span>다양한 디바이스에서의 안정성</span>을 확보했습니다.
+								</p>
+								<p class="skill">
+									Adobe Photoshop / illustrator / Figma
+								</p>
+							</li>
+							<li>	
+								<h5><i class="fa-solid fa-magnifying-glass"></i>작업기간 - period</h5>
+								<p>2024년 1월 22일 ~ 2월 23일 (1개월)</p>
+							</li>
+						</ul>
 					</div>
-
-				</div>
-				<ul class="overview">
-					<li class="strategy">
-						<h5><i class="fa-solid fa-magnifying-glass"></i>기획방향 - Planning direction</h5>
-						<span class="contribution">기여도 100%</span>
-						<p>
-							기존 코오롱글로벌 웹사이트는 xhtml1으로 제작되어 웹 접근성을 준수하지 않은 태그 사용과 W3C 마크업 검사 시 다수의 오류가 발생했습니다. 이를 개선하기 위해 적절한 헤딩 태그와 시멘틱한 섹션 요소를 활용하여 논리적인 아웃라인을 구성했습니다. 또한, 이미지로 표현되어 있던 텍스트와 alt 속성이 누락된 이미지를 웹 표준과 접근성을 준수한 방식으로 수정하였습니다.
-						</p>
-					</li>
-					<li class="concept">
-						<h5><i class="fa-solid fa-magnifying-glass"></i>제작전략 - Coding Production strategy</h5>
-						<span class="contribution">기여도 100%</span>
-						<p>
-							바닐라 스크립트와 다양한 Javascript 라이브러리, 플러그인, 그리고 AJAX 기법을 사용하여 복잡한 인터랙션과 동적인 기능을 구현했습니다. 특히, jQuery를 사용해 메인 비주얼 갤러리를 개발하고, 다양한 탭메뉴 등의 기능을 통해 사용자 경험을 향상시켰습니다.
-						</p>
-						<p class="skill">
-							HTML5 / CSS3 / JavaScript / jQuery / AJAX / 그누보드(게시판) / W3C 웹표준 통합 마크업 검사(html, css) / 웹접근성검사(K-WAH) / 크로스브라우징 완료
-						</p>
-					</li>
-					<li class="design">
-						<h5><i class="fa-solid fa-magnifying-glass"></i>디자인개선 - Design System</h5>
-						<span class="contribution">기여도 100%</span>
-						<p>
-							브랜드 색상과 가독성을 개선한 최신 UI 디자인을 적용하고, 사용자 중심의 직관적 레이아웃으로 네비게이션을 향상시켰습니다. 또한  AJAX와 스크립트를 활용하여 풍부한 정보 제공과 상호작용 기능을 추가해 사이트의 유용성을 높였습니다.
-						</p>
-						<p class="skill">
-							Adobe Photoshop / illustrator / Figma
-						</p>
-					</li>
-					<!-- <li class="concept">
-						<h5><i class="fa-solid fa-magnifying-glass"></i>Design System</h5>
-						<div class="color">
-							<p>COLOR │ 감성적인 사진의 컬러칩을 참고하여 디자인 컨셉에 맞는 색상을 선정했습니다</p>
-							<div class="color_box">
-								<span>#7BAABE</span>
-								<span>#7BAABE</span>
-								<span>#7BAABE</span>
-							</div>
-						</div>
-						<div class="font">
-							<p>FONT │ </p>
-							<div class="font_box">
-								<span>한글</span>
-								<span>English</span>
-							</div>
-						</div>
-					</li> -->
-					<li>	
-						<h5><i class="fa-solid fa-magnifying-glass"></i>작업기간 - period</h5>
-						<p>2024년 1월 22일 ~ 2월 23일 (1개월)</p>
-					</li>
-					<!-- <li>
-						<h5><i class="fa-solid fa-magnifying-glass"></i>contribution</h5>
-						<p>기획 / 디자인 / 코딩 - 기여도 100%</p>
-					</li> -->
-					<!-- <li>
-						<h5><i class="fa-solid fa-magnifying-glass"></i>Technology</h5>
-						<p>
-							<i class="fa-solid fa-code"></i>
-							<span></span><br>
-							<i class="fa-solid fa-palette"></i> 
-							<span></span>
-						</p>
-					</li> -->
-				</ul>
-			</div>
+				</li>
+			</ul>
 		</div>
-		
-		
 	</div>
 	
 	<!-- 유동형 다섯 번째 박스 -->
 	<div class="section rw_page" id="section4">
 		<h2 class="hidden">반응형 웹사이트 제작</h2>
 		<div class="all rw_web">
-			<div class="img">
-				<img src="./img/cellphone.png" alt="" class="monitor">
-			</div>
-			<div class="text">
-				<div class="title_area">
-					<h3>반응형 웹사이트</h3>
-					<div class="flex">
-						<h4>DIVE INFO</h4>
-						<a href="https://parkgee06.mycafe24.com/media" target='_blank' class="visit_btn">VISIT SITE<span></span></a>
+			<ul>
+				<li class="img">
+					<img src="./img/rw.png" alt="" class="result_img">
+				</li>
+				<li>
+					<div class="text">
+						<div class="title_area">
+							<div>
+								<h3>반응형 웹사이트</h3>
+								<div class="flex">
+									<h4>DIVE INFO</h4>
+									<a href="https://parkgee06.mycafe24.com/media" target='_blank' class="visit_btn">VISIT SITE<span><img src="./img/star.png" alt=""></span></a>
+								</div>
+							</div>
+							<img src="./img/QR_media.png" alt="" class="qr_img">
+						</div>
+						<ul class="overview">
+							<li class="strategy">
+								<h5><i class="fa-solid fa-magnifying-glass"></i>기획방향 - Planning direction</h5>
+								<span class="contribution">기여도 100%</span>
+								<p>
+									기존 코오롱글로벌 웹사이트는 xhtml1으로 제작되어 웹 접근성을 준수하지 않은 태그 사용과 W3C 마크업 검사 시 다수의 오류가 발생했습니다. 이를 개선하기 위해 적절한 헤딩 태그와 시멘틱한 섹션 요소를 활용하여 논리적인 아웃라인을 구성했습니다. 또한, 이미지로 표현되어 있던 텍스트와 alt 속성이 누락된 이미지를 웹 표준과 접근성을 준수한 방식으로 수정하였습니다.
+								</p>
+							</li>
+							<li class="concept">
+								<h5><i class="fa-solid fa-magnifying-glass"></i>제작전략 - Coding Production strategy</h5>
+								<span class="contribution">기여도 100%</span>
+								<p>
+									바닐라 스크립트와 다양한 Javascript 라이브러리, 플러그인, 그리고 AJAX 기법을 사용하여 복잡한 인터랙션과 동적인 기능을 구현했습니다. 특히, jQuery를 사용해 메인 비주얼 갤러리를 개발하고, 다양한 탭메뉴 등의 기능을 통해 사용자 경험을 향상시켰습니다.
+								</p>
+								<p class="skill">
+									HTML5 / CSS3 / JavaScript / jQuery / AJAX / 그누보드(게시판) / W3C 웹표준 통합 마크업 검사(html, css) / 웹접근성검사(K-WAH) / 크로스브라우징 완료
+								</p>
+							</li>
+							<li class="design">
+								<h5><i class="fa-solid fa-magnifying-glass"></i>디자인개선 - Design System</h5>
+								<span class="contribution">기여도 100%</span>
+								<p>
+									브랜드 색상과 가독성을 개선한 최신 UI 디자인을 적용하고, 사용자 중심의 직관적 레이아웃으로 네비게이션을 향상시켰습니다. 또한  AJAX와 스크립트를 활용하여 풍부한 정보 제공과 상호작용 기능을 추가해 사이트의 유용성을 높였습니다.
+								</p>
+								<p class="skill">
+									Adobe Photoshop / illustrator / Figma
+								</p>
+							</li>
+							<li>	
+								<h5><i class="fa-solid fa-magnifying-glass"></i>작업기간 - period</h5>
+								<p>2024년 1월 22일 ~ 2월 23일 (1개월)</p>
+							</li>
+						</ul>
 					</div>
-
-				</div>
-				<ul class="overview">
-					<li class="strategy">
-						<h5><i class="fa-solid fa-magnifying-glass"></i>기획방향 - Planning direction</h5>
-						<span class="contribution">기여도 100%</span>
-						<p>
-							기존 코오롱글로벌 웹사이트는 xhtml1으로 제작되어 웹 접근성을 준수하지 않은 태그 사용과 W3C 마크업 검사 시 다수의 오류가 발생했습니다. 이를 개선하기 위해 적절한 헤딩 태그와 시멘틱한 섹션 요소를 활용하여 논리적인 아웃라인을 구성했습니다. 또한, 이미지로 표현되어 있던 텍스트와 alt 속성이 누락된 이미지를 웹 표준과 접근성을 준수한 방식으로 수정하였습니다.
-						</p>
-					</li>
-					<li class="concept">
-						<h5><i class="fa-solid fa-magnifying-glass"></i>제작전략 - Coding Production strategy</h5>
-						<span class="contribution">기여도 100%</span>
-						<p>
-							바닐라 스크립트와 다양한 Javascript 라이브러리, 플러그인, 그리고 AJAX 기법을 사용하여 복잡한 인터랙션과 동적인 기능을 구현했습니다. 특히, jQuery를 사용해 메인 비주얼 갤러리를 개발하고, 다양한 탭메뉴 등의 기능을 통해 사용자 경험을 향상시켰습니다.
-						</p>
-						<p class="skill">
-							HTML5 / CSS3 / JavaScript / jQuery / AJAX / 그누보드(게시판) / W3C 웹표준 통합 마크업 검사(html, css) / 웹접근성검사(K-WAH) / 크로스브라우징 완료
-						</p>
-					</li>
-					<li class="design">
-						<h5><i class="fa-solid fa-magnifying-glass"></i>디자인개선 - Design System</h5>
-						<span class="contribution">기여도 100%</span>
-						<p>
-							브랜드 색상과 가독성을 개선한 최신 UI 디자인을 적용하고, 사용자 중심의 직관적 레이아웃으로 네비게이션을 향상시켰습니다. 또한  AJAX와 스크립트를 활용하여 풍부한 정보 제공과 상호작용 기능을 추가해 사이트의 유용성을 높였습니다.
-						</p>
-						<p class="skill">
-							Adobe Photoshop / illustrator / Figma
-						</p>
-					</li>
-					<!-- <li class="concept">
-						<h5><i class="fa-solid fa-magnifying-glass"></i>Design System</h5>
-						<div class="color">
-							<p>COLOR │ 감성적인 사진의 컬러칩을 참고하여 디자인 컨셉에 맞는 색상을 선정했습니다</p>
-							<div class="color_box">
-								<span>#7BAABE</span>
-								<span>#7BAABE</span>
-								<span>#7BAABE</span>
-							</div>
-						</div>
-						<div class="font">
-							<p>FONT │ </p>
-							<div class="font_box">
-								<span>한글</span>
-								<span>English</span>
-							</div>
-						</div>
-					</li> -->
-					<li>	
-						<h5><i class="fa-solid fa-magnifying-glass"></i>작업기간 - period</h5>
-						<p>2024년 1월 22일 ~ 2월 23일 (1개월)</p>
-					</li>
-					<!-- <li>
-						<h5><i class="fa-solid fa-magnifying-glass"></i>contribution</h5>
-						<p>기획 / 디자인 / 코딩 - 기여도 100%</p>
-					</li> -->
-					<!-- <li>
-						<h5><i class="fa-solid fa-magnifying-glass"></i>Technology</h5>
-						<p>
-							<i class="fa-solid fa-code"></i>
-							<span></span><br>
-							<i class="fa-solid fa-palette"></i> 
-							<span></span>
-						</p>
-					</li> -->
-				</ul>
-			</div>
+				</li>
+			</ul>
 		</div>
 	</div>
 
 	<!-- 여섯 번째 박스 -->
 	<div class="section 6page" id="section5">
-		ffff
+		<h2 class="hidden">이전 작업물</h2>
+		<div class="all other_box">
+			<div class="text">
+				<div class="title_area">
+					<h3>이전 작업물</h3>
+					<p>OTHER WORKS</p>
+				</div>
+				<div class="overview_box">
+					<p>Portfolio Overview</p>
+					<p>
+						그래픽 디자인을 중심으로 브랜딩부터 일러스트레이션에 이르는 다양한 작품들을 수록하였습니다. 단순히 눈에 띄고 예쁘기만 한 디자인이 아니라 사용자 및 감상자에게 다면적인 경험과 독창적인 메세지를 전달하는 디자인을 하고자 했으며, 그렇게 탄생한 결과물의 모음집입니다.
+					</p>
+				</div>
+			</div>
+		</div>
 	</div>
 
 </div>
 	<script src="./js/fullpage.min.js"></script>
 	<script>
 		var myFullpage = new fullpage('#fullpage', {
-			sectionsColor: ['#4872b8', '#fff', '#fff', '#fff', '#fff', '#ccddff'],
+			// sectionsColor: ['#4872b8', '#fff', '#fff', '#fff', '#fff', '#ccddff'],
 			anchors: ['1page', '2page', '3page', '4page', '5page', '6page'],
 			menu: '#menu',
 			lazyLoad: true,
