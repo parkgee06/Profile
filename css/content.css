@@ -410,7 +410,7 @@
 }
 
 
-#fullpage .section .all ul>li:nth-of-type(1){
+#fullpage .section .all>ul>li:nth-of-type(1){
      margin-top: 18px;
 }
 #fullpage .section .all ul>li:nth-of-type(1) .result_img{
@@ -450,7 +450,7 @@
      text-align: left;
 }
 
-#fullpage .section .all>ul>li:nth-of-type(2) .text .flex{
+#fullpage .section .all .text .flex{
      display: flex;
      margin-top: 10px;
      gap: 180px;
@@ -535,9 +535,8 @@
 /* -------------------------------------------- */
 /* 이전작업물 */
 
-#fullpage .section .other_box .text .title_area p{
+/* #fullpage .section .other_box .text .title_area p{
      font-size: 1.6rem;
-     /* display:inline; */
      clear: both;
      text-align: left;
      position: relative;
@@ -558,8 +557,130 @@
      left: 363px;
      width: 60px;
      height: 60px;
-}
+} */
 
-#fullpage .section .other_box .text .overview_box{
+#fullpage .section .other_box .text .overview{
+     margin-top: 30px;
      text-align: left;
 } 
+#fullpage .section .other_box .text .overview p:nth-of-type(1){
+     text-transform: uppercase;
+     text-align: left;
+     font-size: 1.25rem;
+     font-weight: 600;
+     margin: 20px 0 5px 0;
+}
+
+#fullpage .section .other_box .text .overview p:nth-of-type(1) i{
+     margin-right: 15px;
+}
+
+#fullpage .section .other_box .text .overview p:nth-of-type(2){
+     font-size: .95rem;
+     text-align: justify;
+     margin: 8px 0 0 32px;
+     line-height: 1.3rem;
+}
+
+#fullpage .section .other_box .text ul {
+     display: flex;
+     gap: 35px;
+}
+#fullpage .section .other_box .text ul li {
+     width: 20%;
+}
+
+#fullpage .section .other_box .text ul:nth-of-type(1) {
+     margin-top: 160px;
+     padding: 50px 0;
+}
+
+#fullpage .section .other_box .text ul:nth-of-type(1) li{
+     width: 100%;
+     height: 290px;
+     background: url(../img/folder.png) no-repeat center;
+     background-size: contain;
+
+}
+#fullpage .section .other_box .text ul:nth-of-type(1)>li:hover{
+     animation: motion 0.4s linear 0s infinite alternate;
+}
+@keyframes motion {
+     0% {transform: translateY(0px);}
+     100% {transform: translateY(10px);}
+}
+
+#fullpage .section .other_box .text ul:nth-of-type(1) li a>p:nth-of-type(1){
+     color: #fff;
+     text-align: left;
+     font-weight: 700;
+     font-size: 1.6rem;
+     margin: 15px 0 0 50px;
+}
+#fullpage .section .other_box .text ul:nth-of-type(1) li a h5{
+     color: #fff;
+     text-align: left;
+     font-size: 1.7rem;
+     font-weight: 600;
+     margin: 15px 0 0 50px;
+}
+
+#fullpage .section .other_box .text ul:nth-of-type(1) li a>div{
+     color: #fff;
+     text-align: left;
+}
+
+#fullpage .section .other_box .text ul:nth-of-type(1) li a>div{
+     font-size: .95rem;
+     font-weight: 500;
+     margin: 15px 0 0 55px;
+     line-height: 1.6rem;
+}
+
+#fullpage .section .other_box .text ul:nth-of-type(1) li>a>div>p .enter{
+     margin-left: 10px;
+}
+
+#fullpage .section .other_box .text ul:nth-of-type(1) li a>div>p:not(:nth-of-type(1)){
+     position: relative;
+}
+#fullpage .section .other_box .text ul:nth-of-type(1) li a>div>p:not(:nth-of-type(1))::after{
+     content: "";
+     width: 4px;
+     height: 4px;
+     border-radius: 50%;
+     background: #fff;
+     position: absolute;
+     top: 50%;
+     left: -10px;
+}
+
+#fullpage .section .other_box .text ul:nth-of-type(1) li a>div>p:nth-of-type(1){
+     position: relative;
+}
+#fullpage .section .other_box .text ul:nth-of-type(1) li a>div>p:nth-of-type(1)::after{
+     content: "";
+     width: 4px;
+     height: 4px;
+     border-radius: 50%;
+     background: #fff;
+     position: absolute;
+     top: 12px;
+     left: -10px;
+}
+
+#fullpage .section .other_box .text>ul:nth-of-type(2) li .shadow{
+     position: relative;
+     width: 100%;
+}
+#fullpage .section .other_box .text>ul:nth-of-type(2) li .shadow::after {
+     content: "";
+     width: 325.5px;
+     height: 30px;
+     background: #d1e2e8;
+     border-radius: 50%;
+     position: absolute;
+     bottom: -15px;
+     left: 50%;
+     transform: translateX(-50%);
+}
