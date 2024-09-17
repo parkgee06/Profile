@@ -146,7 +146,7 @@
 
 
 #fullpage .about_me_page .about_img .btn{
-     margin-top: 30px;
+     margin-top: 15px;
 }
 
 #fullpage .about_me_page .about_img .btn a{
@@ -164,6 +164,7 @@
      background: #333;
      text-decoration: none;
      color: #fff;
+     padding: 5px 0;
 }
 
 #fullpage .about_me_page .about_img .btn a::before{
