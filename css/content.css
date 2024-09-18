@@ -122,7 +122,6 @@
           transform: rotate(360deg);
      }
 }
-
 /* 두번째 페이지 ABOUT ME */
 #fullpage .about{
      display: flex;
@@ -164,14 +163,14 @@
      background: #333;
      text-decoration: none;
      color: #fff;
-     padding: 5px 0;
+     padding: 5px 10px;
 }
 
 #fullpage .about_me_page .about_img .btn a::before{
      content: url(../img/star.png);
      position: absolute;
-     top: 19px;
-     left: 178px;
+     top: 14px;
+     left: 190px;
 }
 
 #fullpage .about_me_page .about_img .btn a:hover:before{
@@ -592,7 +591,7 @@
 }
 
 #fullpage .section .other_box .text ul:nth-of-type(1) {
-     margin-top: 160px;
+     margin-top: 240px;
      padding: 50px 0;
 }
 
@@ -601,8 +600,36 @@
      height: 290px;
      background: url(../img/folder.png) no-repeat center;
      background-size: contain;
-
+     position: relative;
 }
+
+#fullpage .section .other_box .text ul:nth-of-type(1) li::after{
+     content: "";
+     position: absolute;
+     top: -75px;
+     left: 50%;
+     transform: translateX(-50%);
+     background: url(../img/heart.png) no-repeat;
+     background-size: contain;
+     width: 120px;
+     height: 89px;
+     opacity: 0;
+     transition: all .3s ease-in;
+}
+
+#fullpage .section .other_box .text ul:nth-of-type(1)>li:hover::after{
+     content: "";
+     position: absolute;
+     top: -110px;
+     left: 50%;
+     transform: translateX(-50%);
+     background: url(../img/heart.png) no-repeat;
+     background-size: contain;
+     width: 120px;
+     height: 89px;
+     opacity: 1;
+}
+
 #fullpage .section .other_box .text ul:nth-of-type(1)>li:hover{
      animation: motion 0.4s linear 0s infinite alternate;
 }
@@ -614,9 +641,10 @@
 #fullpage .section .other_box .text ul:nth-of-type(1) li a>p:nth-of-type(1){
      color: #fff;
      text-align: left;
-     font-weight: 700;
-     font-size: 1.6rem;
+     font-weight: 900;
+     font-size: 1.5rem;
      margin: 15px 0 0 50px;
+     /* border: 1px solid red; */
 }
 #fullpage .section .other_box .text ul:nth-of-type(1) li a h5{
      color: #fff;
@@ -629,17 +657,13 @@
 #fullpage .section .other_box .text ul:nth-of-type(1) li a>div{
      color: #fff;
      text-align: left;
-}
-
-#fullpage .section .other_box .text ul:nth-of-type(1) li a>div{
      font-size: .95rem;
      font-weight: 500;
-     margin: 15px 0 0 55px;
-     line-height: 1.6rem;
+     margin: 15px 0 0 75px;
 }
 
-#fullpage .section .other_box .text ul:nth-of-type(1) li>a>div>p .enter{
-     margin-left: 10px;
+#fullpage .section .other_box .text ul:nth-of-type(1) li a>div p{
+     margin: 8px 0;
 }
 
 #fullpage .section .other_box .text ul:nth-of-type(1) li a>div>p:not(:nth-of-type(1)){
@@ -658,6 +682,10 @@
 
 #fullpage .section .other_box .text ul:nth-of-type(1) li a>div>p:nth-of-type(1){
      position: relative;
+}
+
+#fullpage .section .other_box .text ul:nth-of-type(1) li a>div>p:nth-of-type(1) span{
+     margin-left: 10px;
 }
 #fullpage .section .other_box .text ul:nth-of-type(1) li a>div>p:nth-of-type(1)::after{
      content: "";
@@ -681,7 +709,133 @@
      background: #d1e2e8;
      border-radius: 50%;
      position: absolute;
-     bottom: -15px;
+     bottom: -30px;
      left: 50%;
      transform: translateX(-50%);
+}
+
+/* 마지막 페이지 HOME */
+#fullpage .last_page{
+     background: url(../img/pro_bg.svg) repeat;
+     background-position: center;
+     background-size: 120%;
+}
+
+#fullpage .last_page>div{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;   
+     position: relative;
+}
+
+#fullpage .last_page .tit_box{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 12rem;
+     font-family:'Cyrivendell Regular';
+     letter-spacing: .5rem;
+     font-weight: 700;
+     color: #f170a5;
+     line-height: 10.5rem;
+}
+
+#fullpage .last_page .tit_box .h1_stroke_1{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 12rem;
+     font-family:'Cyrivendell Regular';
+     letter-spacing: .5rem;
+     font-weight: 700;
+     color: #313131;
+     -webkit-text-stroke: 6px #313131;
+     z-index: -1;
+}
+
+#fullpage .last_page .tit_box .h1_stroke_2{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 12rem;
+     font-family:'Cyrivendell Regular';
+     letter-spacing: .5rem;
+     font-weight: 700;
+     color: #fff;
+     -webkit-text-stroke: 38px #fff;
+     z-index: -2;
+}
+
+#fullpage .last_page .tit_box .h1_stroke_3{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 12rem;
+     font-family:'Cyrivendell Regular';
+     letter-spacing: .5rem;
+     font-weight: 700;
+     color: #313131;
+     -webkit-text-stroke: 48px #313131;
+     z-index: -3;
+}
+
+#fullpage .last_page>div .edit_box{
+     /* position: absolute;
+     right: 50%;
+     transform: translateY(-50%);
+     bottom: -58px; */
+     font-family:'S-CoreDream-3Light';
+     letter-spacing: normal;
+     color: #fff;
+     padding: 8px 25px;
+     background: #313131;
+     font-size: 1.05rem;
+     font-weight: 500;
+     text-align: center;
+     margin-top: 650px;
+     line-height: 2rem;
+     letter-spacing: .1rem;
+}
+
+#fullpage .last_page>div .edit_box i{
+     margin-right: 10px;
+}
+
+#fullpage .last_page .shape_1 img{
+     position: absolute;
+     left: -30px;
+     top: -110px;
+     width: 250px;
+     height: 250px;
+     animation: rotate-clockwise 10s linear infinite;
+}
+@keyframes rotate-clockwise {
+     from {
+          transform: rotate(0deg);
+     }
+     to {
+          transform: rotate(360deg);
+     }
+}
+
+#fullpage .last_page .shape_2 img{
+     position: absolute;
+     right: 193px;
+     bottom: 50px;
+     width: 145px;
+     height: 145px;
+     animation: rotate-clockwise 10s linear infinite;
+}
+@keyframes rotate-clockwise {
+     from {
+          transform: rotate(0deg);
+     }
+     to {
+          transform: rotate(360deg);
+     }
 }
