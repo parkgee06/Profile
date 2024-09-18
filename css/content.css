@@ -1,8 +1,11 @@
 /* 첫번째 페이지 HOME */
-#fullpage .home_page{
+#fullpage .home_page,
+#fullpage .last_page{
      background: url(../img/pro_bg.svg) repeat;
      background-position: center;
      background-size: 120%;
+     margin: 0;
+     padding: 0;
 }
 
 #fullpage .home_page>div{
@@ -601,6 +604,7 @@
      background: url(../img/folder.png) no-repeat center;
      background-size: contain;
      position: relative;
+     /* border: 1px solid red; */
 }
 
 #fullpage .section .other_box .text ul:nth-of-type(1) li::after{
@@ -715,12 +719,6 @@
 }
 
 /* 마지막 페이지 HOME */
-#fullpage .last_page{
-     background: url(../img/pro_bg.svg) repeat;
-     background-position: center;
-     background-size: 120%;
-}
-
 #fullpage .last_page>div{
      display: flex;
      justify-content: center;

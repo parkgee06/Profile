@@ -1,0 +1,158 @@
+@import url(http://fonts.googleapis.com/css?family=Righteous);
+
+/*  Reset CSS  */
+* {margin:0;  padding:0;}
+ol,ul {list-style: none;}
+a {
+     outline:0;
+     text-decoration:none;
+     color:#555;
+}
+img {
+     border:0;
+}
+body {
+     font:12px/1.6 arial;
+     color:#555;
+} 
+.hidden{
+     display: block;
+     position: absolute;
+     left: -1000%;
+     width: 1px;
+     height: 1px;
+     overflow: hidden;
+}
+
+
+/*로고*/
+h1 { position:fixed; top:50px; left:50px; z-index:10;}
+/* h1 img { width:200px; height:auto;} */
+
+/*메뉴*/
+#menu {
+     position: fixed;
+     top: 30%;
+     left: 50px;
+     margin-top: -100px;
+     z-index: 13;
+}
+#menu a {
+     display:block;
+     width:200px;
+     height:80px;
+     font-size:1.5rem;
+     border-radius: 10px;
+     overflow:hidden;
+     box-sizing:border-box;  
+     text-align:left;
+     opacity:0.3;
+     color:#333;
+     padding-left: 30px;
+     background: #f2f2f2;
+     border-radius: 20px;
+     margin-bottom: 15px;
+     z-index: -1;
+     position: relative;
+}
+
+#menu a i{
+     position: absolute;
+     top: 50%;
+     left: 35px;
+     transform: translateY(-50%);
+}
+#menu li.on a {
+     text-align:left;
+     opacity:1;
+     padding-left: 30px;
+
+}
+
+/* #menu li:nth-child(1):hover a {
+     color:#c11918;
+     
+}
+#menu li:nth-child(2):hover a {
+     color:#c11918;
+     
+}
+#menu li:nth-child(3):hover a { 
+     color:#c11918;
+     
+}
+#menu li:nth-child(4):hover a {
+     color:#c11918;
+     
+}
+#menu li:nth-child(5):hover a {
+     color:#c11918;
+     
+} */
+
+#menu li:nth-child(1).on a {
+     background: #f2f2f2;
+     color:#c11918;
+}
+#menu li:nth-child(2).on a {
+     background: #f2f2f2;
+     color:#c11918;
+}
+#menu li:nth-child(3).on a {
+     background: #f2f2f2;
+     color:#c11918; 
+}
+#menu li:nth-child(4).on a {
+     background: #f2f2f2;
+     color:#c11918; 
+}
+#menu li:nth-child(5).on a {
+     background: #f2f2f2;
+     color: #c11918; 
+}
+
+
+/*레이아웃*/
+section {
+     width:100%;
+     height:700px;
+     position:relative;
+     background-size:cover;
+     background-position:right center;
+     overflow:hidden;
+      /* background-attachment:fixed; */
+     position: relative;
+}
+
+section .bg_box{
+     width: 92%;
+     height: 90%;
+     background: #f2f2f2;
+     border-radius: 20px;
+     position: absolute;
+     top:50%;
+     transform: translateY(-50%);
+     margin-left: 140px;
+     z-index: 2;
+}
+
+/* section:nth-child(1) {
+     
+}
+section:nth-child(2) {
+
+}
+section:nth-child(3) {
+
+}
+section:nth-child(4) {
+
+}
+section:nth-child(5) {
+
+}
+
+ */
+
+
+
