@@ -57,7 +57,7 @@
 		}
 	   */
 		
-		for(var i=0; i<4;i++){  //해당 스크롤에 위치에 대한 메뉴 활성화
+		for(var i=0; i<5;i++){  //해당 스크롤에 위치에 대한 메뉴 활성화
 			if(scroll>=ht*i && scroll< ht*(i+1)){
 				$("#menu li").removeClass();
 				$("#menu li").eq(i).addClass("on");

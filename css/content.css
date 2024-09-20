@@ -587,7 +587,7 @@
 
 #fullpage .section .other_box .text ul {
      display: flex;
-     gap: 35px;
+     gap: 15px;
 }
 #fullpage .section .other_box .text ul li {
      width: 20%;
@@ -643,7 +643,7 @@
 }
 #fullpage .section .other_box .text ul:nth-of-type(1) li a{
      /* border: 1px solid red; */
-     padding: 135px 165px;
+     padding: 125px 145px;
      position: absolute;
      left: 0;
      top: 0;
@@ -652,21 +652,22 @@
      color: #fff;
      text-align: left;
      font-weight: 900;
-     font-size: 1.5rem;
+     font-size: 1.35rem;
      /* margin: 15px 0 0 50px; */
      position: absolute;
-     top: 27px;
+     top: 44px;
      left: 30px;
 }
 #fullpage .section .other_box .text ul:nth-of-type(1) li a h5{
      color: #fff;
      text-align: left;
-     font-size: 1.7rem;
+     font-size: 1.2rem;
      font-weight: 600;
      /* margin: 15px 0 0 50px; */
      position: absolute;
-     top: 55px;
-     left: 40px;
+     top: 98px;
+     left: 23px;
+     margin: 0;
 }
 
 #fullpage .section .other_box .text ul:nth-of-type(1) li a>div{
@@ -681,7 +682,7 @@
 }
 
 #fullpage .section .other_box .text ul:nth-of-type(1) li a>div p{
-     margin: 8px 0;
+     margin: 20px 0 0 0;
 }
 
 #fullpage .section .other_box .text ul:nth-of-type(1) li a>div>p:not(:nth-of-type(1)){
@@ -722,7 +723,7 @@
 }
 #fullpage .section .other_box .text>ul:nth-of-type(2) li .shadow::after {
      content: "";
-     width: 325.5px;
+     width: 225.5px;
      height: 30px;
      background: #d1e2e8;
      border-radius: 50%;
