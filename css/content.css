@@ -369,12 +369,12 @@
      align-items: center;
 }
 #fullpage .section .all>ul>li:nth-of-type(1){
-     width: 40%;
+     width: 43%;
      text-align: center;
 }
 
 #fullpage .section .all>ul>li:nth-of-type(2){
-     width: 60%;
+     width: 57%;
 }
 
 #fullpage .section .all .text .visit_btn{
