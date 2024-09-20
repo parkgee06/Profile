@@ -594,7 +594,7 @@
 }
 
 #fullpage .section .other_box .text ul:nth-of-type(1) {
-     margin-top: 240px;
+     margin-top: 190px;
      padding: 50px 0;
 }
 
@@ -641,21 +641,32 @@
      0% {transform: translateY(0px);}
      100% {transform: translateY(10px);}
 }
-
+#fullpage .section .other_box .text ul:nth-of-type(1) li a{
+     /* border: 1px solid red; */
+     padding: 135px 165px;
+     position: absolute;
+     left: 0;
+     top: 0;
+}
 #fullpage .section .other_box .text ul:nth-of-type(1) li a>p:nth-of-type(1){
      color: #fff;
      text-align: left;
      font-weight: 900;
      font-size: 1.5rem;
-     margin: 15px 0 0 50px;
-     /* border: 1px solid red; */
+     /* margin: 15px 0 0 50px; */
+     position: absolute;
+     top: 27px;
+     left: 30px;
 }
 #fullpage .section .other_box .text ul:nth-of-type(1) li a h5{
      color: #fff;
      text-align: left;
      font-size: 1.7rem;
      font-weight: 600;
-     margin: 15px 0 0 50px;
+     /* margin: 15px 0 0 50px; */
+     position: absolute;
+     top: 55px;
+     left: 40px;
 }
 
 #fullpage .section .other_box .text ul:nth-of-type(1) li a>div{
@@ -663,7 +674,10 @@
      text-align: left;
      font-size: .95rem;
      font-weight: 500;
-     margin: 15px 0 0 75px;
+     /* margin: 15px 0 0 75px; */
+     position: absolute;
+     top: 120px;
+     left: 33px;
 }
 
 #fullpage .section .other_box .text ul:nth-of-type(1) li a>div p{
@@ -713,7 +727,7 @@
      background: #d1e2e8;
      border-radius: 50%;
      position: absolute;
-     bottom: -30px;
+     bottom: 10px;
      left: 50%;
      transform: translateX(-50%);
 }
@@ -806,8 +820,8 @@
 
 #fullpage .last_page .shape_1 img{
      position: absolute;
-     left: -30px;
-     top: -110px;
+     left: -130px;
+     top: -120px;
      width: 250px;
      height: 250px;
      animation: rotate-clockwise 10s linear infinite;
@@ -823,8 +837,8 @@
 
 #fullpage .last_page .shape_2 img{
      position: absolute;
-     right: 193px;
-     bottom: 50px;
+     right: 83px;
+     bottom: 70px;
      width: 145px;
      height: 145px;
      animation: rotate-clockwise 10s linear infinite;
