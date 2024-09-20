@@ -424,9 +424,24 @@
 
 /* ------------------------------------------------------------------ */
 /* 세번째 페이지 - pc 웹 */
+#fullpage .section .pc_web ul>li:nth-of-type(1){
+     position: relative;
+}
+
 #fullpage .section .pc_web ul>li:nth-of-type(1) .result_img{
      margin-top: 18px;
-     width: 98%;
+     /* width: 98%; */
+     position: relative;
+     left: 0;
+     top: 0;
+     z-index: 10;
+}
+#fullpage .section .pc_web ul>li:nth-of-type(1) .gif_img{
+     position: absolute;
+     top: 44px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 90%;
 }
 
 #fullpage .section .all>ul>li:nth-of-type(2) .text .title_area{
