@@ -211,21 +211,52 @@ section:nth-child(5) {
 }
 
 
-/* page2 - 포스터 */
-/* #wrap .box6 .bg_box .content_box .left_box .img_box{
-     border: 1px solid red;
+/* 세번째 페이지 - 포스터 */
+#wrap .box3 .bg_box .item_box{
+     width: 85%;
+     margin: 0 auto;
+}
+#wrap .box3 .bg_box .item_box .container{
+     overflow: hidden;
+     position: relative;
+     /* border: 1px solid red; */
+}
+#wrap .box3 .bg_box .item_box .container .text{
+     font-size: 1.5rem;
+     /* position: absolute; */
+     /* top: 0; */
+     /* right:0; */
 }
 
-#wrap .box6 .bg_box .content_box .left_box .img_box li:nth-of-type(1){
-     width: 60%;
-} */
+#wrap .box3 .bg_box .item_box .content_box .left_box{
+     width: 32%;
+}
 
-/* #wrap .box6 .bg_box .content_box .left_box .img_box li:nth-of-type(2),
-#wrap .box6 .bg_box .content_box .left_box .img_box li:nth-of-type(3){
-     width: 20%;
-} */
+#wrap .box3 .bg_box .item_box .content_box .right_box{
+     width: 68%;
+}
+#wrap .box3 .bg_box .item_box .next{
+     color: #c11918;
+     position: absolute;
+     bottom: 50%;
+     right: -100px;
+     transform: translateX(-50%);
+}
 
+#wrap .box3 .bg_box .item_box .prev{
+     color: #c11918;
+     position: absolute;
+     bottom: 50%;
+     left: -60px;
+     transform: translateX(-50%);
+}
+#wrap .box3 .bg_box .item_box a span{
+     font-size: 4.5rem;
+}
 
+#wrap .box3 .bg_box .item_box .content_box .left_box img{
+     width: 100%;
+}
 /* 네번째 페이지 - BI */
 #wrap .box4 .bg_box .item_box .content_box .left_box{
      width: 55%;
