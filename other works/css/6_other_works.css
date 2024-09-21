@@ -119,8 +119,8 @@ section:nth-child(5) {
      flex-wrap: wrap;
      font-size: 1.1rem;
      /* margin-top: 10px; */
-     /* position: absolute; */
-     /* bottom: 30px; */
+     position: absolute;
+     bottom: 30px;
 }
 #wrap section .right_box .txt_box dl dt {
      width: 140px;
@@ -144,6 +144,26 @@ section:nth-child(5) {
 
 
 /* 첫번째 페이지 - 홈페이지 및 sns 관리 */
+#wrap section .bg_box .item_box .page_box .content_box .right_box .txt_box,
+#wrap section .bg_box .item_box .sns_box .content_box .right_box .txt_box{
+     position: relative;
+     /* padding: 20px; */
+     height: 100%; /* 컨테이너의 전체 높이를 사용 */
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between; 
+}
+
+#wrap .box1 .item_box .page_box .right_box .txt_box dl,
+#wrap .box1 .item_box .sns_box .right_box .txt_box dl{
+     position: absolute;
+     bottom: 30px;
+     left: 0;
+     width: 100%;
+     /* padding: 20px; */
+}
+
+
 #wrap .box1 .right_box .txt_box dl dt{
      width: 90px;
      font-weight: 700;
@@ -300,6 +320,7 @@ section:nth-child(5) {
      display: flex;
      gap: 10px;
      margin-bottom: 25px;
+     justify-content: space-around;
 }
 #wrap .box4 .bg_box .item_box .content_box .left_box .bi_box .box_2 img{
      display: block;
