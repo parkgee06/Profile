@@ -144,6 +144,12 @@ section:nth-child(5) {
 
 
 /* 첫번째 페이지 - 홈페이지 및 sns 관리 */
+#wrap section .bg_box .item_box .page_box .content_box .right_box h3{
+     margin-top: 10px;
+}
+#wrap section .bg_box .item_box .page_box{
+     margin-bottom: 50px;
+}
 #wrap section .bg_box .item_box .page_box .content_box .right_box .txt_box,
 #wrap section .bg_box .item_box .sns_box .content_box .right_box .txt_box{
      position: relative;
@@ -178,14 +184,14 @@ section:nth-child(5) {
      font-size: 1.1rem;
 }
 #wrap .box1 .bg_box .item_box .content_box .left_box{
-     width: 48%;
+     width: 45%;
 }
 #wrap .box1 .bg_box .item_box .content_box .right_box{
-     width: 52%;
+     width: 55%;
 }
 #wrap .box1 .bg_box .item_box .content_box .left_box .flex_box{
      display: flex;
-     gap: 10px;
+     gap: 25px;
 }
 #wrap .box1 .bg_box .item_box .content_box .left_box .box_1 li{
      width: 33.333%;
@@ -193,6 +199,7 @@ section:nth-child(5) {
 }
 #wrap .box1 .bg_box .item_box .content_box .left_box .box_1 li img{
      width: 100%;
+
 }
 #wrap .box1 .bg_box .item_box .content_box .left_box .box_2 li{
      width: 50%;
@@ -232,9 +239,15 @@ section:nth-child(5) {
 
 
 /* 세번째 페이지 - 포스터 */
+#wrap .box3 .right_box .txt_box h3{
+     margin-top:10px
+}
+
 #wrap .box3 .bg_box .item_box{
      width: 85%;
      margin: 0 auto;
+     /* border:1px solid red; */
+
 }
 #wrap .box3 .bg_box .item_box .container{
      overflow: hidden;
@@ -345,13 +358,52 @@ section:nth-child(5) {
      height: 90%;
 }
 
+/* 다섯번째 페이지 - 뉴스레터 */
+#wrap .box5 .bg_box .item_box .content_box .left_box {
+     width: 50%;
+     position: relative;
+     /* padding-top: 60px;  */
+}
+
+#wrap .box5 .bg_box .item_box .content_box .right_box {
+     width: 50%;
+}
+
+#wrap .box5 .bg_box .item_box .content_box .left_box .img_box {
+position: relative;
+display: flex;
+gap: 10px;
+/* height: 650px;  */
+}
+
+#wrap .box5 .bg_box .item_box .content_box .left_box .img_box img {
+     width: 50%;
+/* position: absolute; */
+}
+/*
+#wrap .box5 .bg_box .item_box .content_box .left_box .img_box img:nth-of-type(1) {
+top: 0;
+left: 0;
+}
+
+#wrap .box5 .bg_box .item_box .content_box .left_box .img_box img:nth-of-type(2) {
+top: 110px;
+right: 10px;
+} */
+
+#wrap .box5 .bg_box .item_box .content_box .left_box .txt_box {
+     font-size: 0.7rem;
+     text-align: center;
+     margin-top: 20px;
+     font-weight: 600;
+}
 
 /* 여섯번째 페이지 - 방송디자인 */
 #wrap .box6 .bg_box .item_box .content_box .left_box{
-     width: 40%;
+     width: 35%;
 }
 #wrap .box6 .bg_box .item_box .content_box .right_box{
-     width: 60%;
+     width: 65%;
 }
 #wrap .box6 .bg_box .item_box .content_box img{
      margin-bottom: 5px;
