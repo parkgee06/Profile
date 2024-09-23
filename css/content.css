@@ -140,7 +140,7 @@
 }
 
 #fullpage .about_me_page .about_img .juhee_pic{
-     border-radius: 110px 20px;
+     border-radius: 80px 20px;
      border: 1.5px solid #313131;
      width: 55%;
      text-align: center;
@@ -153,20 +153,21 @@
 
 #fullpage .about_me_page .about_img .btn a{
      border: 1px solid #333;
-     border-radius: 50px 10px;
+     border-radius: 35px 10px;
      width: 280px;
-     height: 65px;
+     height: 45px;
      margin: 18px auto;
      text-align: center;
      position: relative;
      box-shadow: 5px 5px #f170a4;
      display: flex;
      align-items: center;
-     justify-content: center; 
+     justify-content: center;
      background: #333;
      text-decoration: none;
      color: #fff;
      padding: 5px 10px;
+     font-size: .85rem;
 }
 
 #fullpage .about_me_page .about_img .btn a::before{
@@ -222,7 +223,7 @@
 }
 
 #fullpage .about_me_page .about_text .name{
-     font-size: 3.5rem;
+     font-size: 3rem;
      font-weight: 900;
      color: #333;
      margin: 0 0 30px 10px;
@@ -235,12 +236,12 @@
 }
 
 #fullpage .about_me_page .about .about_text .info{
-     font-size: 1.2rem;
+     font-size: 1.1rem;
      font-weight: 400;
      color: #333;
      margin-left: 35px;
      text-align: left;
-     line-height: 2rem;
+     line-height: 1.5rem;
      display: flex;
      gap: 20px;
      width: 100%;
@@ -463,12 +464,13 @@
 }
 
 #fullpage .section h3{
-     /* display:flex; */
+     /* display: flex;  */
      /* display: block; */
-     font-size: 2.1rem;
-     font-weight: 700;
+     font-size: 1.85rem;
+     font-weight: 800;
      /* clear: both; */
      text-align: left;
+     line-height: 2rem;
 }
 
 #fullpage .section .all .text .flex{
@@ -554,7 +556,7 @@
 
 #fullpage .section .mobile_web>ul>li:nth-of-type(2) .text .title_area img,
 #fullpage .section .rw_web>ul>li:nth-of-type(2) .text .title_area img{
-     width: 10%;
+     width: 8.5%;
 }
 
 #fullpage .pro_page .pc_web ul>li:nth-of-type(1) .gif_img{
@@ -613,7 +615,7 @@
 }
 
 #fullpage .section .other_box .text .overview p:nth-of-type(2){
-     font-size: .95rem;
+     font-size: .85rem;
      text-align: justify;
      margin: 8px 0 0 32px;
      line-height: 1.3rem;
@@ -628,7 +630,7 @@
 }
 
 #fullpage .section .other_box .text ul:nth-of-type(1) {
-     margin-top: 190px;
+     margin-top: 135px;
      padding: 50px 0;
 }
 
