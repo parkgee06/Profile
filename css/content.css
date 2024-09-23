@@ -438,7 +438,7 @@
 }
 #fullpage .section .pc_web ul>li:nth-of-type(1) .gif_img{
      position: absolute;
-     top: 44px;
+     top: 47px;
      left: 50%;
      transform: translateX(-50%);
      width: 90%;
@@ -549,6 +549,17 @@
      display: flex;
      gap: 35px;
 }
+
+#fullpage .pro_page .pc_web ul>li:nth-of-type(1) .gif_img{
+     position: absolute;
+     top: 47px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 97%;
+}
+
+
+
 
 
 /* -------------------------------------------- */
